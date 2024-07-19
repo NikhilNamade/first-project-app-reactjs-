@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/first-app/static/css/main.e6c13ad2.css",
-    "main.js": "/first-app/static/js/main.3ac145e8.js",
-    "static/js/453.ae270511.chunk.js": "/first-app/static/js/453.ae270511.chunk.js",
-    "index.html": "/first-app/index.html",
-    "main.e6c13ad2.css.map": "/first-app/static/css/main.e6c13ad2.css.map",
-    "main.3ac145e8.js.map": "/first-app/static/js/main.3ac145e8.js.map",
-    "453.ae270511.chunk.js.map": "/first-app/static/js/453.ae270511.chunk.js.map"
+    "main.css": "/rst-project-app-reactjs-/static/css/main.e6c13ad2.css",
+    "main.js": "/rst-project-app-reactjs-/static/js/main.4bb64d0d.js",
+    "static/js/453.ae270511.chunk.js": "/rst-project-app-reactjs-/static/js/453.ae270511.chunk.js",
+    "index.html": "/rst-project-app-reactjs-/index.html",
+    "main.e6c13ad2.css.map": "/rst-project-app-reactjs-/static/css/main.e6c13ad2.css.map",
+    "main.4bb64d0d.js.map": "/rst-project-app-reactjs-/static/js/main.4bb64d0d.js.map",
+    "453.ae270511.chunk.js.map": "/rst-project-app-reactjs-/static/js/453.ae270511.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.3ac145e8.js"
+    "static/js/main.4bb64d0d.js"
   ]
 }
