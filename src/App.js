@@ -1,8 +1,15 @@
 import Navbar from "./components/Navbar";
 import Textarea from "./components/Textarea";
-
+// import About from "./components/About";
 import React, { useState} from 'react';
 import Alert from "./components/Alert";
+
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   ,
+//   Link
+// } from "react-router-dom";
 function App() {
   const [mode, setmode] = useState("light")
   const [alert, setalert] = useState(null);
@@ -16,9 +23,15 @@ function App() {
         setalert(null);
       },1500)
   }
- 
+  // const removeClass=()=>{
+  //   document.body.classList.remove("bg-primary");
+  //   document.body.classList.remove("bg-secondary");
+  //   document.body.classList.remove("bg-warning");
+  //   document.body.classList.remove("bg-dark");
+  // }
   const toggelmode = ()=> {
-  
+    // removeClass();
+    // document.body.classList.add("bg-"+cls);
     if(mode === "light"){
       
       setmode("dark");
@@ -33,14 +46,22 @@ function App() {
   }
   return (
     <>
-
+    {/* {/* <Router> */}
    
     <Navbar title = "textUtils" abouttext = "About" mode = {mode} toggelmode = {toggelmode} />
     <Alert alert={alert} showalert={showalert}/>
     <div className="container  my-3">
-      <Textarea heading = "Enter Your Text Here To Analayze" mode = {mode} showalert={showalert}/>
+    {/* <Switch> */}
+          {/* <Route exact path="/about"> */}
+          {/* <About mode={mode} toggelmode = {toggelmode}/> */}
+          {/* </Route> */}
+          {/* <Route exact path="/"> */}
+        <Textarea heading = "Enter Your Text Here To Analayze" mode = {mode} showalert={showalert}/>
+        
+        
+    {/* </Switch> */}
     </div>
-
+ {/* </Router> */}
     </>
   );
 }
